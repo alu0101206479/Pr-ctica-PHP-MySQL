@@ -87,7 +87,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <form action="edit.php?dni=<?php echo $dni_antiguo ?>" method="POST">
+                        <form action="edit_clients.php?dni=<?php echo $dni_antiguo ?>" method="POST">
                             <?php
                                 $query = "SELECT * FROM CLIENTES";
                                 $result = mysqli_query($conn, $query);
