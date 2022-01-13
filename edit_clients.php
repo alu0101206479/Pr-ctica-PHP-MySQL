@@ -116,7 +116,7 @@
                                         <td><?php echo $row['codigo_postal'] ?></td>
                                         <td><?php echo $row['dni'] ?></td>
                                         <td>
-                                            <a href="edit.php?dni=<?php echo $row['dni']?>">
+                                            <a href="edit_clients.php?dni=<?php echo $row['dni']?>">
                                                 Editar
                                             </a>
                                             <a href="delete.php?dni=<?php echo $row['dni']?>">
